@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/bjsucher/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bjsucher/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand your libraries better and
@@ -27,20 +29,20 @@ This is a basic example which shows you how to solve a common problem:
 library(libminer)
 
 lib_summary()
-#>                                                                   Library
-#> 1 C:/Users/bsucher/AppData/Local/Temp/Rtmp0uk6e9/temp_libpath50841a2d7541
-#> 2         C:/Users/bsucher/OneDrive - Moderna/Documents/R/R-4.1.2/library
+#>                                                                  Library
+#> 1 C:/Users/bsucher/AppData/Local/Temp/Rtmp0uk6e9/temp_libpath508459f6a3a
+#> 2        C:/Users/bsucher/OneDrive - Moderna/Documents/R/R-4.1.2/library
 #>   n_packages
 #> 1          1
 #> 2        310
 
 # Also can calculate sizes
 lib_summary(sizes = TRUE)
-#>                                                                   Library
-#> 1 C:/Users/bsucher/AppData/Local/Temp/Rtmp0uk6e9/temp_libpath50841a2d7541
-#> 2         C:/Users/bsucher/OneDrive - Moderna/Documents/R/R-4.1.2/library
+#>                                                                  Library
+#> 1 C:/Users/bsucher/AppData/Local/Temp/Rtmp0uk6e9/temp_libpath508459f6a3a
+#> 2        C:/Users/bsucher/OneDrive - Moderna/Documents/R/R-4.1.2/library
 #>   n_packages lib_size
-#> 1          1     4934
+#> 1          1     7493
 #> 2        310    27386
 ```
 

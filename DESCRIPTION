@@ -2,8 +2,7 @@ Package: libminer
 Title: Explore Your R Libraries
 Version: 0.0.0.9000
 Authors@R: 
-    person("Brandon", "Sucher", , "brandon.sucher@modernatx.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Brandon", "Sucher", , "brandonsucher1@gmail.com", role = c("aut", "cre"))
 Description: Provides functions for learning about your R libraries, and the 
             packages you have installed.
 License: MIT + file LICENSE
